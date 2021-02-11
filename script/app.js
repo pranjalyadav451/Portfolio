@@ -12,11 +12,14 @@ let element = document.querySelectorAll('.my-name');
 
 for (let elements of element)
   elements.addEventListener('mouseover', onMouseOver);
-
+console.log(element);
 function onMouseOver(event) {
   let trg = event.target;
   const time = .25;
+  console.log(trg);
   let tl = new gsap.timeline();
-  tl.to(trg, { yPercent: -20, ease: "power1.out", duration: time })
-    .to(trg, { yPercent: 0, ease: "power1.out", duration: time }, delay = time);
+  tl.to(trg, { yPercent: -20, ease: "power1.out", color: "#0a043c", duration: time })
+    .to(trg, {
+      yPercent: 0, ease: "power1.out", duration: time, color: "#03506f"
+    }, delay = time);
 }
