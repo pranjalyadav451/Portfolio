@@ -133,12 +133,14 @@ ul {
   padding: 0;
 }
 
+.greeting-wrapper span {
+  color: #343341;
+}
+
 .greeting-wrapper h1,
 span {
   font-family: var(--mainFont);
   font-size: 80px;
-  /* padding: 5px; */
-  /* margin: 10px; */
 }
 
 

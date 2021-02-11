@@ -18,7 +18,7 @@ function onMouseOver(event) {
   const time = .25;
   console.log(trg);
   let tl = new gsap.timeline();
-  tl.to(trg, { yPercent: -20, ease: "power1.out", color: "#0a043c", duration: time })
+  tl.to(trg, { yPercent: -20, ease: "power1.out", color: "#34341", duration: time })
     .to(trg, {
       yPercent: 0, ease: "power1.out", duration: time, color: "#03506f"
     }, delay = time);
