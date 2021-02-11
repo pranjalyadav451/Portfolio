@@ -4,6 +4,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-size: 18px;
 }
 
 :root {
@@ -14,7 +15,7 @@ body {
 
   --mainText: black;
 
-  --mainFont: "Roboto Mono";
+  --mainFont: "IBM Plex Sans";
 
   --secondaryText: #4b5156;
 
@@ -124,14 +125,15 @@ ul {
   min-height: 10em;
   align-content: center;
   text-align: center;
+  /* margin: 5px; */
 }
 
 .greeting-wrapper h1,
 span {
-  font-family: 'Cinzel Decorative',
-    serif;
+  font-family: var(--mainFont);
   font-size: 80px;
-  margin: 0;
+  padding: 0;
+  margin: 5px;
 }
 
 
@@ -497,7 +499,7 @@ what is the difference between align-items and align-content
 
 .intro-text .text {
   color: rgb(233, 233, 233);
-  font-family: 'Cinzel Decorative',
+  font-family: var(--mainFont),
     serif;
   font-size: 80px !important;
 }
@@ -512,7 +514,7 @@ what is the difference between align-items and align-content
   display: inline-block;
 }
 
-.myname {
+.my-name {
   padding: 0;
   margin: 0;
 }
