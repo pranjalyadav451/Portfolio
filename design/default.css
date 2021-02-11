@@ -124,7 +124,14 @@ ul {
   min-height: 10em;
   align-content: center;
   text-align: center;
-  /* border-bottom: none; */
+}
+
+.greeting-wrapper h1,
+span {
+  font-family: 'Cinzel Decorative',
+    serif;
+  font-size: 80px;
+  margin: 0;
 }
 
 
@@ -182,8 +189,8 @@ what is the difference between align-items and align-content
 }
 
 #navigation li {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
   font-weight: 500;
   text-decoration: none;
   transition: all 700ms;
@@ -234,8 +241,8 @@ what is the difference between align-items and align-content
 }
 
 #profile-pic {
-  width: 300px;
-  height: 200px;
+  width: 90%;
+  height: 60%;
   object-fit: cover;
   border: 5px solid var(--mainColor);
   transition: all 600ms;
@@ -488,10 +495,11 @@ what is the difference between align-items and align-content
   transform: translateY(100%);
 }
 
-.intro-text {
+.intro-text .text {
   color: rgb(233, 233, 233);
-  font-family: "Heebo", sans-serif;
-  font-size: 3rem;
+  font-family: 'Cinzel Decorative',
+    serif;
+  font-size: 80px !important;
 }
 
 .hide {
@@ -504,8 +512,16 @@ what is the difference between align-items and align-content
   display: inline-block;
 }
 
+.myname {
+  padding: 0;
+  margin: 0;
+}
 
-
+.my-name span {
+  position: relative;
+  display: inline-block;
+  /* margin: 90px; */
+}
 
 
 
